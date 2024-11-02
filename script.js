@@ -36,9 +36,7 @@ function searchString(letter, string){
             number++
         }
     }
-    return number;
+    console.log(number);
 }
 
 searchString("o", "Hello World")
-
-//Stumped
