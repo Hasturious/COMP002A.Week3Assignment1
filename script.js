@@ -27,8 +27,18 @@ calculateCircumference(5);
 // console.log(searchString(“q”, “mississippi”)); // will output 0
 
 function searchString(letter, string){
+
+    let number = 0
+
     for (let i = 0; i < string.length; i++) {
         //I remember list arrays from my terrible python scripts
-        if string[i]
+        if (string[i] == letter) {
+            number++
+        }
     }
+    return number;
 }
+
+searchString("o", "Hello World")
+
+//Stumped
